@@ -6,6 +6,7 @@ import javax.persistence.Id;
 @Entity
 public class User {
 	
+	// Username variable id primary key.
 	@Id
 	private String userName;
 	private String fullName;
